@@ -1,13 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;700;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* font-family: 'Poppins', sans-serif; */
+font-family: 'Quicksand', sans-serif;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.outlined-home-btn{
+ font-size: 1.5rem;
+ padding-left: 1em;
+ padding-right: 1em;
+ padding-top: 0.2em;
+ padding-bottom: 0.2em;
+ background-color: transparent;
+ border: white 1px solid;
+ color: aliceblue;
+ border-radius: 4px;
+ margin-right: 1em;
+ cursor: pointer;
+ font-family: 'Poppins', sans-serif;
 }
+
+.outlined-home-btn:hover{
+  background-color: #fce410;
+  color: black;
+  border: #fce410;
+}
+
+.contained-home-btn{
+  font-size: 1.5rem;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 0.2em;
+  padding-bottom: 0.2em;
+  color: rgb(255, 255, 255);
+  background-color: transparent;
+  border: white 1px solid;
+  border-radius: 4px;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+}
+
+.contained-home-btn:hover{
+  background-color: #fce410;
+  color: black;
+  border: #fce410;
+}
+
